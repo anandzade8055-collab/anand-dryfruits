@@ -1,0 +1,106 @@
+/* Background styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("ff.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Signup container */
+
+.signup-container {
+    background: rgba(0, 0, 0, 0.5);
+    /* dark transparent glass */
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    /* blur glass effect */
+}
+
+
+/* Headline with gradient text */
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(35deg, #d82400, #9024dd, #cb9ce4, #2c008b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Labels */
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #ffffffcc;
+}
+
+
+/* Inputs, textarea, and select - same style */
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #cccccc;
+}
+
+
+/* Button */
+
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(135deg, #d82400, #9024dd, #cb9ce4, #2c008b);
+    background-size: 200% 200%;
+    transition: 0.4s;
+}
+
+.signup-btn:hover {
+    background: linear-gradient(135deg, #3d00d8, #24dd87, #cbe49c, #8b0000);
+    transform: scale(1.05);
+}
+
+
+/* Note */
+
+.note {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #ffffffcc;
+}
